@@ -1,6 +1,10 @@
 # Mensageria-jms-activemq
 
-“ Mensageria é um conceito que define que sistemas distribuídos, possam se comunicar por meio de troca de mensagens (evento), sendo estas mensagens “gerenciadas” por um Message Broker (servidor/módulo de mensagens).”
+ Mensageria é um conceito que define que sistemas distribuídos, possam se comunicar por meio de troca de mensagens (evento), sendo estas mensagens “gerenciadas” por um Message Broker (servidor/módulo de mensagens).”
+O modelo do projeto acima foi utilizado para a criação do projeto que simula uma loja virtual, que é um projeto de exemplo para a utilização do ActiveMQ como Message Broker. O JMS é uma API de mensagens (Java Message Service) que permite a comunicação entre sistemas distribuídos.
+execute o ActiveMQ como servidor de mensagens seguindo a documentacao https://activemq.apache.org/components/classic/documentation e fazendo uma copia do projeto para o seu diretorio de trabalho.
+
+
 
 # O modelo Publish/Subscribe (Pub/Sub)
 A troca de mensagens é baseado no conceito de tópicos, no qual as mensagens são publicadas pelo produtor em um tópico e são entregues automaticamente a todos os consumidores que assinaram o tópico para recebimento de mensagens.
